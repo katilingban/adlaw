@@ -1,6 +1,6 @@
 Package: scalingupnutrition
 Type: Package
-Title: Sentiment Analysis of Scaling Up Nutrition (SUN) Movement Progress Reports
+Title: Scaling Up Nutrition (SUN) Movement Annual Progress Reports
 Version: 0.1.0
 Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
     email = "ernestgmd@gmail.com", role = c("aut", "cre"))
@@ -12,7 +12,7 @@ Description: Scaling Up Nutrition (SUN) <http://scalingupnutrition.org> is a glo
     annual reports from 2011-2017 and various functions for processing, manipulating
     and analysing this dataset.
 License: AGPL-3
+Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
-
-
+RoxygenNote: 6.0.1
