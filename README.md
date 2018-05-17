@@ -2,6 +2,9 @@
 Scaling Up Nutrition (SUN) Movement Annual Progress Reports
 ===========================================================
 
+[![Travis-CI Build
+Status](https://travis-ci.org/ernestguevarra/scalingupnutrition.svg?branch=master)](https://travis-ci.org/ernestguevarra/scalingupnutrition)
+
 [Scaling Up Nutrition (SUN)](http://scalingupnutrition.org) is a global
 movement of 60 countries aiming to end malnutrition in all its forms.
 The SUN Movement Annual Progress Report provides a detailed snapshot of
