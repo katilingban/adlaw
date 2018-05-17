@@ -3,7 +3,7 @@ Type: Package
 Title: Scaling Up Nutrition (SUN) Movement Annual Progress Reports
 Version: 0.1.0
 Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
-    email = "ernestgmd@gmail.com", role = c("aut", "cre"))
+    email = "ernest@guevarra.io", role = c("aut", "cre"))
 Description: Scaling Up Nutrition (SUN) <http://scalingupnutrition.org> is a global 
     movement of 60 countries aiming to end malnutrition in all its forms. The SUN 
     Movement Annual Progress Report provides a detailed snapshot of the progress 
