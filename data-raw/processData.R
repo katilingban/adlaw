@@ -24,7 +24,17 @@ x <- str_split(x, pattern = "\n")
 report1 <- NULL
 
 for(i in 1:length(x)) {
+  #
+  # extract text from current page
+  #
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
+  #
+  # Concatenate report1
+  #
   report1 <- rbind(report1, temp)
 }
 #
@@ -66,34 +76,44 @@ x <- str_split(x, pattern = "\n")
 #
 #
 #
-report5 <- NULL
+report2 <- NULL
 
 for(i in 1:length(x)) {
+  #
+  # extract text from current page
+  #
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
-  report5 <- rbind(report5, temp)
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
+  #
+  # Concatenate report2
+  #
+  report2 <- rbind(report2, temp)
 }
 #
 # add linenumber and chapters
 #
-report5 <- mutate(.data = report5,
+report2 <- mutate(.data = report2,
                   linenumber = row_number(),
                   chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",
                                                           ignore_case = TRUE))))
 #
 # Remove page 1 and page 2 (cover page and table of contents)
 #
-report5 <- subset(report5, !page %in% 1:5)
+report2 <- subset(report2, !page %in% 1:5)
 #
 #
 #
-report5 <- mutate(.data = report5,
+report2 <- mutate(.data = report2,
                   linenumber = row_number(),
                   chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",
                                                           ignore_case = TRUE))))
 #
 #
 #
-progress_report_2012 <- report5
+progress_report_2012 <- report2
 #
 #
 #
@@ -115,6 +135,10 @@ report3 <- NULL
 
 for(i in 1:length(x)) {
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
   report3 <- rbind(report3, temp)
 }
 #
@@ -160,6 +184,10 @@ report4 <- NULL
 
 for(i in 1:length(x)) {
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
   report4 <- rbind(report4, temp)
 }
 #
@@ -205,6 +233,10 @@ report5 <- NULL
 
 for(i in 1:length(x)) {
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
   report5 <- rbind(report5, temp)
 }
 #
@@ -250,6 +282,10 @@ report6 <- NULL
 
 for(i in 1:length(x)) {
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
   report6 <- rbind(report6, temp)
 }
 #
@@ -295,6 +331,10 @@ report7 <- NULL
 
 for(i in 1:length(x)) {
   temp <- data_frame(text = x[[i]], page = rep(i, length(x[[i]])))
+  #
+  # remove page number
+  #
+  temp <- temp[-(nrow(temp) - 1), ]
   report7 <- rbind(report7, temp)
 }
 #
