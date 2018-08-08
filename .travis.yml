@@ -9,8 +9,10 @@ cache: packages
 env:
   -_R_CHECK_FORCE_SUGGESTS_=false
 
-install:
-  - R -e "install.packages('pdftools')"
+addons:
+   apt:
+     packages:
+       - libpoppler-cpp-dev
 
 r_github_packages:
   - r-lib/covr
