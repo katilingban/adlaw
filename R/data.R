@@ -14,7 +14,6 @@
 #'
 #' @docType package
 #' @name scalingupnutrition
-#' @export project_reports
 #' @importFrom tibble as.tibble
 #'
 #
