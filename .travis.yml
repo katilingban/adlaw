@@ -9,6 +9,9 @@ cache: packages
 env:
   -_R_CHECK_FORCE_SUGGESTS_=false
 
+install:
+  - R -e "install.packages('pdftools')"
+
 r_github_packages:
   - r-lib/covr
 
