@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Scaling Up Nutrition (SUN) Movement Annual Progress Reports
+# Scaling Up Nutrition (SUN) Movement Annual Progress Reports <img src="man/figures/SUN-logo.png" align="right" />
 
 [![Travis-CI Build Status](https://travis-ci.org/ernestguevarra/scalingupnutrition.svg?branch=master)](https://travis-ci.org/ernestguevarra/scalingupnutrition)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ernestguevarra/scalingupnutrition?branch=master&svg=true)](https://ci.appveyor.com/project/ernestguevarra/scalingupnutrition)

@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Scaling Up Nutrition (SUN) Movement Annual Progress Reports
-===========================================================
+Scaling Up Nutrition (SUN) Movement Annual Progress Reports <img src="man/figures/SUN-logo.png" align="right" />
+================================================================================================================
 
 [![Travis-CI Build
 Status](https://travis-ci.org/ernestguevarra/scalingupnutrition.svg?branch=master)](https://travis-ci.org/ernestguevarra/scalingupnutrition)
