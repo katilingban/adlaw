@@ -9,6 +9,11 @@ cache: packages
 env:
   -_R_CHECK_FORCE_SUGGESTS_=false
 
+addons:
+   apt:
+     packages:
+       - libpoppler-cpp-dev
+
 r_github_packages:
   - r-lib/covr
 

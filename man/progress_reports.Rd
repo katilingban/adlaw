@@ -28,6 +28,4 @@ in which the corresponding report was released.
 \examples{
 #
 
-
-
 }
