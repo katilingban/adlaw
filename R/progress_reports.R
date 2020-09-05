@@ -27,33 +27,24 @@
 ################################################################################
 
 progress_reports <- function() {
-  #
-  # Create concatenating object
-  #
+  ## Create concatenating object
   reports <- NULL
-  #
-  # Cycle through years of annual reports
-  #
+
+  ## Cycle through years of annual reports
   for(i in 2011:2017) {
-    #
-    # Get current progress report
-    #
+    ## Get current progress report
     temp <- get(paste("progress_report_", i, sep = ""))
-    #
-    # Create year column
-    #
+
+    ## Create year column
     temp$year <- i
-    #
-    # Concatenate reports
-    #
+
+    ## Concatenate reports
     reports <- rbind(reports, temp)
   }
-  #
-  # Convert to tibble
-  #
-  reports <- tibble::as.tibble(reports)
-  #
-  # Return output
-  #
+
+  ## Convert to tibble
+  reports <- tibble::tibble(reports)
+
+  ## Return output
   return(reports)
 }
