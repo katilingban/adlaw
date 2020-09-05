@@ -1,8 +1,9 @@
 Package: scalingupnutrition
 Type: Package
-Title: Scaling Up Nutrition (SUN) Movement Annual Progress Reports
+Title: Scaling Up Nutrition (SUN) Movement
 Version: 0.1.0
-Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
+Authors@R: person("Ernest", "Guevarra", 
+    comment = c(ORCID = "0000-0002-4887-4415"), 
     email = "ernest@guevarra.io", role = c("aut", "cre"))
 Description: Scaling Up Nutrition (SUN) <http://scalingupnutrition.org> is a global 
     movement of 60 countries aiming to end malnutrition in all its forms. The SUN 
@@ -11,17 +12,21 @@ Description: Scaling Up Nutrition (SUN) <http://scalingupnutrition.org> is a glo
     evolution of the Movement. This package contains text dataset of the Movement's
     annual reports from 2011-2017 and various functions for processing, manipulating
     and analysing this dataset.
-License: AGPL-3
+License: GPL-3
 Depends: R (>= 2.10)
-Imports: tibble
-Suggests: pdftools,
+Imports: 
+    tibble
+Suggests: 
+    pdftools,
     tm,
     stringr,
-    tidyverse,
+    dplyr,
     tidytext,
     testthat
 Encoding: UTF-8
+Language: en-GB
 LazyData: true
-RoxygenNote: 6.1.0
-URL: https://github.com/ernestguevarra/scalingupnutrition
-BugReports: https://github.com/ernestguevarra/scalingupnutrition/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/katilingban/scalingupnutrition
+BugReports: https://github.com/katilingban/scalingupnutrition/issues
