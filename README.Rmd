@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis-CI Build Status](https://travis-ci.org/katilingban/scalingupnutrition.svg?branch=master)](https://travis-ci.org/katilingban/scalingupnutrition)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/katilingban/scalingupnutrition?branch=master&svg=true)](https://ci.appveyor.com/project/katilingban/scalingupnutrition)
+[![R-CMD-check](https://github.com/katilingban/scalingupnutrition/workflows/R-CMD-check/badge.svg)](https://github.com/katilingban/scalingupnutrition/actions?query=workflow%3AR-CMD-check)
+[![test-coverage](https://github.com/katilingban/scalingupnutrition/workflows/test-coverage/badge.svg)](https://github.com/katilingban/scalingupnutrition/actions?query=workflow%3Atest-coverage)
 [![codecov](https://codecov.io/gh/katilingban/scalingupnutrition/branch/master/graph/badge.svg)](https://codecov.io/gh/katilingban/scalingupnutrition)
 [![CodeFactor](https://www.codefactor.io/repository/github/katilingban/scalingupnutrition/badge)](https://www.codefactor.io/repository/github/katilingban/scalingupnutrition)
 <!-- badges: end -->
