@@ -1,0 +1,23 @@
+title: scalingupnutrition
+
+url: https://katilingban.io/scalingupnutrition/
+
+template:
+  params:
+    bootswatch: sandstone
+    #ganalytics: UA-102485058-4
+
+home:
+  links:
+  - text: Read more about Scaling Up Nutrition
+    href: https://scalingupnutrition.org
+
+reference:
+  - title: Description
+    contents:
+    - scalingupnutrition
+
+  - title: Progress Reports
+    contents:
+    - starts_with("progress")
+
