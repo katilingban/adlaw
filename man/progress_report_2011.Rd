@@ -3,14 +3,16 @@
 \docType{data}
 \name{progress_report_2011}
 \alias{progress_report_2011}
-\title{progress_report_2011}
-\format{A dataframe with 4 columns and 2209 rows:
-\describe{
-\item{\code{text}}{Line of text from the 2011 annual progress report}
-\item{\code{page}}{Page number to which line of text can be found}
-\item{\code{linenumber}}{Line number of text}
-\item{\code{chapter}}{Document chapter to which line of text can be found}
-}}
+\title{SUN movement annual progress report 2011}
+\format{
+A dataframe with 4 columns and 2209 rows:\tabular{ll}{
+   \strong{Variable} \tab \strong{Description} \cr
+   \emph{text} \tab Line of text from the 2011 annual progress report \cr
+   \emph{page} \tab Page number to which line of text can be found \cr
+   \emph{linenumber} \tab Line number of text \cr
+   \emph{chapter} \tab Document chapter to which line of text can be found \cr
+}
+}
 \source{
 Scaling Up Nutrition Movement 2011
 }
