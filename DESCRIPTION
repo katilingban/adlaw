@@ -22,7 +22,8 @@ Suggests:
     stringr,
     dplyr,
     tidytext,
-    testthat
+    testthat,
+    spelling
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
