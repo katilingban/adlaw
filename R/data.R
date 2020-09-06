@@ -1,9 +1,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2011
+#' SUN Movement annual progress report 2011
 #'
-#' @format A dataframe with 4 columns and 2209 rows:
+#' @format A tibble with 4 columns and 2209 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
@@ -22,9 +22,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2012
+#' SUN Movement annual progress report 2012
 #'
-#' @format A dataframe with 4 columns and 2016 rows:
+#' @format A tibble with 4 columns and 2016 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
@@ -43,9 +43,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2013
+#' SUN Movement annual progress report 2013
 #'
-#' @format A dataframe with 4 columns and 2915 rows:
+#' @format A tibble with 4 columns and 2915 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
@@ -64,9 +64,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2014
+#' SUN Movement annual progress report 2014
 #'
-#' @format A dataframe with 4 columns and 3873 rows:
+#' @format A tibble with 4 columns and 3873 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
@@ -85,9 +85,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2015
+#' SUN Movement annual progress report 2015
 #'
-#' @format A dataframe with 4 columns and 10886 rows:
+#' @format A tibble with 4 columns and 10886 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
@@ -106,9 +106,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2016
+#' SUN Movement annual progress report 2016
 #'
-#' @format A dataframe with 4 columns and 8070 rows:
+#' @format A tibble with 4 columns and 8070 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
@@ -127,9 +127,9 @@
 ################################################################################
 #
 #'
-#' SUN movement annual progress report 2017
+#' SUN Movement annual progress report 2017
 #'
-#' @format A dataframe with 4 columns and 7586 rows:
+#' @format A tibble with 4 columns and 7586 rows:
 #'
 #' | **Variable** | **Description** |
 #' | :--- | :--- |
