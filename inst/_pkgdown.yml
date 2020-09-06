@@ -21,3 +21,6 @@ reference:
     contents:
     - starts_with("progress")
 
+  - title: Investment Database
+    contents:
+    - investment

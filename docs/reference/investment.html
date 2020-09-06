@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Scaling Up Nutrition (SUN) Movement Annual Progress Reports — scalingupnutrition • scalingupnutrition</title>
+<title>Scaling Up Nutrition investment database — investment • scalingupnutrition</title>
 
 
 <!-- jquery -->
@@ -39,14 +39,8 @@
 
 
 
-<meta property="og:title" content="Scaling Up Nutrition (SUN) Movement Annual Progress Reports — scalingupnutrition" />
-<meta property="og:description" content="Scaling Up Nutrition (SUN) http://scalingupnutrition.org is a
-global movement of 60 countries aiming to end malnutrition in all its forms.
-The SUN Movement. This package contains various datasets produced by the
-Movement and functions that aid in the manipulation and processing of these
-datasets. It also includes functions that support analysis and visualisation
-of these datasets. Finally, a Shiny application is included to allow user to
-interactively engage with the publicly-available SUN Movement datasets." />
+<meta property="og:title" content="Scaling Up Nutrition investment database — investment" />
+<meta property="og:description" content="Scaling Up Nutrition investment database" />
 
 
 
@@ -117,31 +111,39 @@ interactively engage with the publicly-available SUN Movement datasets." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Scaling Up Nutrition (SUN) Movement Annual Progress Reports</h1>
-    <small class="dont-index">Source: <a href='https://github.com/katilingban/scalingupnutrition/blob/master/R/scalingupnutrition.R'><code>R/scalingupnutrition.R</code></a></small>
-    <div class="hidden name"><code>scalingupnutrition.Rd</code></div>
+    <h1>Scaling Up Nutrition investment database</h1>
+    <small class="dont-index">Source: <a href='https://github.com/katilingban/scalingupnutrition/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>investment.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Scaling Up Nutrition (SUN) <a href='http://scalingupnutrition.org'>http://scalingupnutrition.org</a> is a
-global movement of 60 countries aiming to end malnutrition in all its forms.
-The SUN Movement. This package contains various datasets produced by the
-Movement and functions that aid in the manipulation and processing of these
-datasets. It also includes functions that support analysis and visualisation
-of these datasets. Finally, a Shiny application is included to allow user to
-interactively engage with the publicly-available SUN Movement datasets.</p>
+    <p>Scaling Up Nutrition investment database</p>
     </div>
 
+    <pre class="usage"><span class='no'>investment</span></pre>
 
 
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <div class='dont-index'><p>Useful links:</p><ul>
-<li><p><a href='https://github.com/katilingban/scalingupnutrition'>https://github.com/katilingban/scalingupnutrition</a></p></li>
-<li><p>Report bugs at <a href='https://github.com/katilingban/scalingupnutrition/issues'>https://github.com/katilingban/scalingupnutrition/issues</a></p></li>
-</ul>
+    <p>A tibble with 14 columns and 16313 rows.</p><table class='table'>
+<tr><td><strong>Variable</strong></td><td><strong>Description</strong></td></tr>
+<tr><td><em>Country</em></td><td>Country name</td></tr>
+<tr><td><em>Budget year</em></td><td>Year (as character value) budget is for</td></tr>
+<tr><td><em>Ministry, department or agency</em></td><td>Name of ministry, department or agency</td></tr>
+<tr><td><em>Search term</em></td><td>Search term</td></tr>
+<tr><td><em>Budget line item</em></td><td>Name of budget line item</td></tr>
+<tr><td><em>Budget line item description</em></td><td>Description of budget line item</td></tr>
+<tr><td><em>Nutrition-Sensitive/Specific</em></td><td>Classification of budget line item</td></tr>
+<tr><td><em>Sector</em></td><td>Sector classification for budget line item</td></tr>
+<tr><td><em>Nutrition-sensitive typology</em></td><td>Type of nutrition-sensitive budget line item</td></tr>
+<tr><td><em>Nutrition-specific typology</em></td><td>Type of nutrition-specific budget line item</td></tr>
+<tr><td><em>Currency code</em></td><td>Thee letter code for country currency</td></tr>
+<tr><td><em>Allocations (Country currency)</em></td><td>Amount in country currency (as character value) allocated to budget line item</td></tr>
+<tr><td><em>Deflator allocations (Country currency)</em></td><td>Amount in country currency (as numeric value) allocated to budget line item</td></tr>
+<tr><td><em>Available sub-national information</em></td><td>Is there sub-national information available?</td></tr>
+</table>
 
-</div>
+
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
