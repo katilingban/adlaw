@@ -3,9 +3,9 @@
 \docType{data}
 \name{progress_report_2016}
 \alias{progress_report_2016}
-\title{SUN movement annual progress report 2016}
+\title{SUN Movement annual progress report 2016}
 \format{
-A dataframe with 4 columns and 8070 rows:\tabular{ll}{
+A tibble with 4 columns and 8070 rows:\tabular{ll}{
    \strong{Variable} \tab \strong{Description} \cr
    \emph{text} \tab Line of text from the 2016 annual progress report \cr
    \emph{page} \tab Page number to which line of text can be found \cr
@@ -20,6 +20,6 @@ Scaling Up Nutrition Movement 2016
 progress_report_2016
 }
 \description{
-SUN movement annual progress report 2016
+SUN Movement annual progress report 2016
 }
 \keyword{datasets}
