@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • scalingupnutrition</title>
+<title>Scaling Up Nutrition investment database — investment • scalingupnutrition</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,8 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Scaling Up Nutrition investment database — investment" />
+<meta property="og:description" content="Scaling Up Nutrition investment database" />
 
 
 
@@ -58,7 +59,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -108,122 +109,43 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Scaling Up Nutrition investment database</h1>
+    <small class="dont-index">Source: <a href='https://github.com/katilingban/scalingupnutrition/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>investment.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>Scaling Up Nutrition investment database</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='no'>investment</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-description" class="hasAnchor"><a href="#section-description" class="anchor"></a>Description</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="scalingupnutrition.html">scalingupnutrition</a></code> </p>
-        </td>
-        <td><p>Scaling Up Nutrition (SUN) Movement Annual Progress Reports</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-progress-reports" class="hasAnchor"><a href="#section-progress-reports" class="anchor"></a>Progress Reports</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="progress_report_2011.html">progress_report_2011</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2011</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_report_2012.html">progress_report_2012</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2012</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_report_2013.html">progress_report_2013</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2013</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_report_2014.html">progress_report_2014</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2014</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_report_2015.html">progress_report_2015</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2015</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_report_2016.html">progress_report_2016</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2016</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_report_2017.html">progress_report_2017</a></code> </p>
-        </td>
-        <td><p>SUN movement annual progress report 2017</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="progress_reports.html">progress_reports()</a></code> </p>
-        </td>
-        <td><p>progress_reports</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-investment-database" class="hasAnchor"><a href="#section-investment-database" class="anchor"></a>Investment Database</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="investment.html">investment</a></code> </p>
-        </td>
-        <td><p>Scaling Up Nutrition investment database</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A tibble with 14 columns and 16313 rows.</p><table class='table'>
+<tr><td><strong>Variable</strong></td><td><strong>Description</strong></td></tr>
+<tr><td><em>Country</em></td><td>Country name</td></tr>
+<tr><td><em>Budget year</em></td><td>Year (as character value) budget is for</td></tr>
+<tr><td><em>Ministry, department or agency</em></td><td>Name of ministry, department or agency</td></tr>
+<tr><td><em>Search term</em></td><td>Search term</td></tr>
+<tr><td><em>Budget line item</em></td><td>Name of budget line item</td></tr>
+<tr><td><em>Budget line item description</em></td><td>Description of budget line item</td></tr>
+<tr><td><em>Nutrition-Sensitive/Specific</em></td><td>Classification of budget line item</td></tr>
+<tr><td><em>Sector</em></td><td>Sector classification for budget line item</td></tr>
+<tr><td><em>Nutrition-sensitive typology</em></td><td>Type of nutrition-sensitive budget line item</td></tr>
+<tr><td><em>Nutrition-specific typology</em></td><td>Type of nutrition-specific budget line item</td></tr>
+<tr><td><em>Currency code</em></td><td>Thee letter code for country currency</td></tr>
+<tr><td><em>Allocations (Country currency)</em></td><td>Amount in country currency (as character value) allocated to budget line item</td></tr>
+<tr><td><em>Deflator allocations (Country currency)</em></td><td>Amount in country currency (as numeric value) allocated to budget line item</td></tr>
+<tr><td><em>Available sub-national information</em></td><td>Is there sub-national information available?</td></tr>
+</table>
+
+
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
