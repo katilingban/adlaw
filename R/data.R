@@ -145,3 +145,31 @@
 "progress_report_2017"
 
 
+################################################################################
+#
+#'
+#' Scaling Up Nutrition investment database
+#'
+#' @format A tibble with 14 columns and 16313 rows.
+#'
+#' | **Variable** | **Description** |
+#' | :--- | :--- |
+#' | *Country* | Country name |
+#' | *Budget year* | Year (as character value) budget is for |
+#' | *Ministry, department or agency* | Name of ministry, department or agency |
+#' | *Search term* | Search term |
+#' | *Budget line item* | Name of budget line item |
+#' | *Budget line item description* | Description of budget line item |
+#' | *Nutrition-Sensitive/Specific* | Classification of budget line item |
+#' | *Sector* | Sector classification for budget line item |
+#' | *Nutrition-sensitive typology* | Type of nutrition-sensitive budget line item |
+#' | *Nutrition-specific typology* | Type of nutrition-specific budget line item |
+#' | *Currency code* | Thee letter code for country currency |
+#' | *Allocations (Country currency)* | Amount in country currency (as character value) allocated to budget line item |
+#' | *Deflator allocations (Country currency)* | Amount in country currency (as numeric value) allocated to budget line item |
+#' | *Available sub-national information* | Is there sub-national information available? |
+#'
+#'
+#
+################################################################################
+"investment"
