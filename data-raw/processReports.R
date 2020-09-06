@@ -50,10 +50,13 @@ report1 <- mutate(.data = report1,
                                                           ignore_case = TRUE))))
 
 ##
+report1 <- tibble::tibble(report1)
+
+##
 progress_report_2011 <- report1
 
 ##
-remotes::use_data(progress_report_2011, overwrite = TRUE)
+usethis::use_data(progress_report_2011, overwrite = TRUE)
 
 
 ################################################################################
@@ -95,10 +98,13 @@ report2 <- mutate(.data = report2,
                                                           ignore_case = TRUE))))
 
 ##
+report2 <- tibble::tibble(report2)
+
+##
 progress_report_2012 <- report2
 
 ##
-remotes::use_data(progress_report_2012, overwrite = TRUE)
+usethis::use_data(progress_report_2012, overwrite = TRUE)
 
 
 ################################################################################
@@ -137,10 +143,13 @@ report3 <- mutate(.data = report3,
                                                           ignore_case = TRUE))))
 
 ##
+report3 <- tibble::tibble(report3)
+
+##
 progress_report_2013 <- report3
 
 ##
-remotes::use_data(progress_report_2013, overwrite = TRUE)
+usethis::use_data(progress_report_2013, overwrite = TRUE)
 
 
 ################################################################################
@@ -179,10 +188,13 @@ report4 <- mutate(.data = report4,
                                                           ignore_case = TRUE))))
 
 ##
+report4 <- tibble::tibble(report4)
+
+##
 progress_report_2014 <- report4
 
 ##
-remotes::use_data(progress_report_2014, overwrite = TRUE)
+usethis::use_data(progress_report_2014, overwrite = TRUE)
 
 
 ################################################################################
@@ -221,10 +233,13 @@ report5 <- mutate(.data = report5,
                                                           ignore_case = TRUE))))
 
 ##
+report5 <- tibble::tibble(report5)
+
+##
 progress_report_2015 <- report5
 
 ##
-remotes::use_data(progress_report_2015, overwrite = TRUE)
+usethis::use_data(progress_report_2015, overwrite = TRUE)
 
 
 ################################################################################
@@ -263,10 +278,13 @@ report6 <- mutate(.data = report6,
                                                           ignore_case = TRUE))))
 
 ##
+report6 <- tibble::tibble(report6)
+
+##
 progress_report_2016 <- report6
 
 ##
-remotes::use_data(progress_report_2016, overwrite = TRUE)
+usethis::use_data(progress_report_2016, overwrite = TRUE)
 
 
 ################################################################################
@@ -305,10 +323,13 @@ report7 <- mutate(.data = report7,
                                                           ignore_case = TRUE))))
 
 ##
+report7 <- tibble::tibble(report7)
+
+##
 progress_report_2017 <- report7
 
 ##
-remotes::use_data(progress_report_2017, overwrite = TRUE)
+usethis::use_data(progress_report_2017, overwrite = TRUE)
 
 
 
