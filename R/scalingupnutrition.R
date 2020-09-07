@@ -1,7 +1,7 @@
 ################################################################################
 #
 #'
-#' Scaling Up Nutrition (SUN) Movement Annual Progress Reports
+#' Scaling Up Nutrition (SUN) Movement
 #'
 #' Scaling Up Nutrition (SUN) <http://scalingupnutrition.org> is a
 #' global movement of 60 countries aiming to end malnutrition in all its forms.
