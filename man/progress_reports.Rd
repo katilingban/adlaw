@@ -2,19 +2,16 @@
 % Please edit documentation in R/progress_reports.R
 \name{progress_reports}
 \alias{progress_reports}
-\title{progress_reports}
+\title{Produce a tidy dataframe of Scaling Up Nutrition Movement's progress reports
+from 2011 to 2017}
 \usage{
 progress_reports()
 }
 \value{
-A data frame with 5 columns: \code{text}, \code{page}, \code{linenumber},
-\code{chapter}, \code{year}.
+A data frame with 5 columns: \code{text}, \code{page}, \code{linenumber}, \code{chapter},
+\code{year}.
 }
 \description{
-Tidy dataframe of Scaling Up Nutrition Movement's progress reports from 2011
-to 2017
-}
-\details{
 Returns a tidy data frame of Scaling Up Nutrition Movement's published
 annual progress reports from 2011 to 2017 with five columns: \code{text}, which
 contains the text of the progress reports divided into elements of up to about
@@ -26,6 +23,6 @@ be found in the corresponding report, and \code{year}, which contains the year
 in which the corresponding report was released.
 }
 \examples{
-#
+progress_reports()
 
 }
