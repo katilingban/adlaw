@@ -23,10 +23,17 @@ A tibble with 14 columns and 16313 rows.\tabular{ll}{
    \emph{Available sub-national information} \tab Is there sub-national information available? \cr
 }
 }
+\source{
+https://idb.scalingupnutrition.org
+}
 \usage{
 investment
 }
 \description{
 Scaling Up Nutrition investment database
+}
+\examples{
+investment
+
 }
 \keyword{datasets}
