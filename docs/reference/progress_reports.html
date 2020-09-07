@@ -6,13 +6,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>progress_reports — progress_reports • scalingupnutrition</title>
+<title>Produce a tidy dataframe of Scaling Up Nutrition Movement's progress reports
+from 2011 to 2017 — progress_reports • scalingupnutrition</title>
 
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/sandstone/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/cerulean/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
@@ -39,9 +40,17 @@
 
 
 
-<meta property="og:title" content="progress_reports — progress_reports" />
-<meta property="og:description" content="Tidy dataframe of Scaling Up Nutrition Movement's progress reports from 2011
-to 2017" />
+<meta property="og:title" content="Produce a tidy dataframe of Scaling Up Nutrition Movement's progress reports
+from 2011 to 2017 — progress_reports" />
+<meta property="og:description" content="Returns a tidy data frame of Scaling Up Nutrition Movement's published
+annual progress reports from 2011 to 2017 with five columns: text, which
+contains the text of the progress reports divided into elements of up to about
+70 characters each, page, which contains the page number to which the
+text belongs to in the corresponding report, linenumber, which
+contains the linenumber where the text can be found in the corresponding
+report, chapter, which contains the chapter where the text can
+be found in the corresponding report, and year, which contains the year
+in which the corresponding report was released." />
 
 
 
@@ -62,7 +71,7 @@ to 2017" />
   <body data-spy="scroll" data-target="#toc">
     <div class="container template-reference-topic">
       <header>
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -112,25 +121,13 @@ to 2017" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>progress_reports</h1>
+    <h1>Produce a tidy dataframe of Scaling Up Nutrition Movement's progress reports
+from 2011 to 2017</h1>
     <small class="dont-index">Source: <a href='https://github.com/katilingban/scalingupnutrition/blob/master/R/progress_reports.R'><code>R/progress_reports.R</code></a></small>
     <div class="hidden name"><code>progress_reports.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Tidy dataframe of Scaling Up Nutrition Movement's progress reports from 2011
-to 2017</p>
-    </div>
-
-    <pre class="usage"><span class='fu'>progress_reports</span>()</pre>
-
-
-    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
-
-    <p>A data frame with 5 columns: <code>text</code>, <code>page</code>, <code>linenumber</code>,
-<code>chapter</code>, <code>year</code>.</p>
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
     <p>Returns a tidy data frame of Scaling Up Nutrition Movement's published
 annual progress reports from 2011 to 2017 with five columns: <code>text</code>, which
 contains the text of the progress reports divided into elements of up to about
@@ -140,11 +137,32 @@ contains the linenumber where the <code>text</code> can be found in the correspo
 report, <code>chapter</code>, which contains the chapter where the <code>text</code> can
 be found in the corresponding report, and <code>year</code>, which contains the year
 in which the corresponding report was released.</p>
+    </div>
+
+    <pre class="usage"><span class='fu'>progress_reports</span>()</pre>
+
+
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>A data frame with 5 columns: <code>text</code>, <code>page</code>, <code>linenumber</code>, <code>chapter</code>,
+<code>year</code>.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'>#
-
-</div></pre>
+    <pre class="examples"><div class='input'><span class='fu'>progress_reports</span>()</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 36,807 x 5</span><span>
+#&gt;    text                                            page linenumber chapter  year
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                                          </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> Preface                                            3          1       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 2</span><span> One year ago, I joined a group of leaders in …     3          2       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 3</span><span> We set ourselves the ambitious target of subs…     3          3       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 4</span><span> 1,000-day period of a child’s life, from preg…     3          4       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 5</span><span> The need for such an initiative is abundantly…     3          5       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 6</span><span> following prolonged drought in the Horn of Af…     3          6       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 7</span><span> support national authorities as they help vul…     3          7       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 8</span><span> security, and resist the impact of climatic a…     3          8       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'> 9</span><span> obesity, diabetes and heart disease in later …     3          9       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'>10</span><span> on Non-Communicable Diseases especially timel…     3         10       0  </span><span style='text-decoration: underline;'>2</span><span>011
+#&gt; </span><span style='color: #555555;'># … with 36,797 more rows</span><span></div><div class='input'>
+</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
