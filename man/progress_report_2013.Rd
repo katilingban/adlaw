@@ -22,4 +22,8 @@ progress_report_2013
 \description{
 SUN Movement annual progress report 2013
 }
+\examples{
+progress_report_2013
+
+}
 \keyword{datasets}

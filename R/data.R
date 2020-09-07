@@ -12,6 +12,9 @@
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
 #'
+#' @examples
+#' progress_report_2011
+#'
 #' @source Scaling Up Nutrition Movement 2011
 #'
 #
@@ -32,6 +35,9 @@
 #' | *page* | Page number to which line of text can be found |
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
+#'
+#' @examples
+#' progress_report_2012
 #'
 #' @source Scaling Up Nutrition Movement 2012
 #'
@@ -54,6 +60,9 @@
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
 #'
+#' @examples
+#' progress_report_2013
+#'
 #' @source Scaling Up Nutrition Movement 2013
 #'
 #
@@ -74,6 +83,9 @@
 #' | *page* | Page number to which line of text can be found |
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
+#'
+#' @examples
+#' progress_report_2014
 #'
 #' @source Scaling Up Nutrition Movement 2014
 #'
@@ -96,6 +108,9 @@
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
 #'
+#' @examples
+#' progress_report_2015
+#'
 #' @source Scaling Up Nutrition Movement 2015
 #'
 #
@@ -117,6 +132,9 @@
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
 #'
+#' @examples
+#' progress_report_2016
+#'
 #' @source Scaling Up Nutrition Movement 2016
 #'
 #
@@ -137,6 +155,9 @@
 #' | *page* | Page number to which line of text can be found |
 #' | *linenumber* | Line number of text |
 #' | *chapter* | Document chapter to which line of text can be found |
+#'
+#' @examples
+#' progress_report_2017
 #'
 #' @source Scaling Up Nutrition Movement 2017
 #'
@@ -168,6 +189,11 @@
 #' | *Allocations (Country currency)* | Amount in country currency (as character value) allocated to budget line item |
 #' | *Deflator allocations (Country currency)* | Amount in country currency (as numeric value) allocated to budget line item |
 #' | *Available sub-national information* | Is there sub-national information available? |
+#'
+#' @examples
+#' investment
+#'
+#' @source https://idb.scalingupnutrition.org
 #'
 #'
 #
