@@ -1,25 +1,24 @@
 ################################################################################
 #
-#' progress_reports
 #'
-#' Tidy dataframe of Scaling Up Nutrition Movement's progress reports from 2011
-#' to 2017
+#' Produce a tidy dataframe of Scaling Up Nutrition Movement's progress reports
+#' from 2011 to 2017
 #'
 #' Returns a tidy data frame of Scaling Up Nutrition Movement's published
-#' annual progress reports from 2011 to 2017 with five columns: \code{text}, which
+#' annual progress reports from 2011 to 2017 with five columns: `text`, which
 #' contains the text of the progress reports divided into elements of up to about
-#' 70 characters each, \code{page}, which contains the page number to which the
-#' \code{text} belongs to in the corresponding report, \code{linenumber}, which
-#' contains the linenumber where the \code{text} can be found in the corresponding
-#' report, \code{chapter}, which contains the chapter where the \code{text} can
-#' be found in the corresponding report, and \code{year}, which contains the year
+#' 70 characters each, `page`, which contains the page number to which the
+#' `text` belongs to in the corresponding report, `linenumber`, which
+#' contains the linenumber where the `text` can be found in the corresponding
+#' report, `chapter`, which contains the chapter where the `text` can
+#' be found in the corresponding report, and `year`, which contains the year
 #' in which the corresponding report was released.
 #'
-#' @return A data frame with 5 columns: \code{text}, \code{page}, \code{linenumber},
-#' \code{chapter}, \code{year}.
+#' @return A data frame with 5 columns: `text`, `page`, `linenumber`, `chapter`,
+#'   `year`.
 #'
 #' @examples
-#' #
+#' progress_reports()
 #'
 #' @export
 #'

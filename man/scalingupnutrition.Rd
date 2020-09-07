@@ -4,7 +4,7 @@
 \name{scalingupnutrition}
 \alias{scalingupnutrition}
 \alias{scalingupnutrition-package}
-\title{Scaling Up Nutrition (SUN) Movement Annual Progress Reports}
+\title{Scaling Up Nutrition (SUN) Movement}
 \description{
 Scaling Up Nutrition (SUN) \url{http://scalingupnutrition.org} is a
 global movement of 60 countries aiming to end malnutrition in all its forms.
