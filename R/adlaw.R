@@ -1,7 +1,5 @@
-################################################################################
-#
 #'
-#' Scaling Up Nutrition (SUN) Movement
+#' An Interface to the Scaling Up Nutrition (SUN) Movement Datasets
 #'
 #' Scaling Up Nutrition (SUN) <http://scalingupnutrition.org> is a
 #' global movement of 60 countries aiming to end malnutrition in all its forms.
@@ -12,11 +10,9 @@
 #' interactively engage with the publicly-available SUN Movement datasets.
 #'
 #' @docType package
-#' @name scalingupnutrition
+#' @name adlaw
 #' @keywords internal
 #' @importFrom tibble tibble
 #'
-#
-################################################################################
 "_PACKAGE"
 
