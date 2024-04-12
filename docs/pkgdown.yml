@@ -1,9 +1,0 @@
-pandoc: 2.7.3
-pkgdown: 1.6.1
-pkgdown_sha: ~
-articles: {}
-last_built: 2020-09-15T23:07Z
-urls:
-  reference: https://katilingban.io/scalingupnutrition//reference
-  article: https://katilingban.io/scalingupnutrition//articles
-

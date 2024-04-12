@@ -1,7 +1,7 @@
-Package: scalingupnutrition
+Package: adlaw
 Type: Package
-Title: Scaling Up Nutrition (SUN) Movement
-Version: 0.1.0
+Title: An Interface to the Scaling Up Nutrition (SUN) Movement Datasets
+Version: 0.0.0.9000
 Authors@R: person("Ernest", "Guevarra", 
     comment = c(ORCID = "0000-0002-4887-4415"), 
     email = "ernest@guevarra.io", role = c("aut", "cre"))
@@ -22,13 +22,14 @@ Suggests:
     stringr,
     dplyr,
     tidytext,
-    testthat,
+    testthat (>= 3.0.0),
     spelling,
     readxl
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
-URL: https://github.com/katilingban/scalingupnutrition
-BugReports: https://github.com/katilingban/scalingupnutrition/issues
+RoxygenNote: 7.3.1
+URL: https://github.com/katilingban/adlaw, https://katilingban.io/scalingupnutrition/, https://katilingban.io/adlaw/
+BugReports: https://github.com/katilingban/adlaw/issues
+Config/testthat/edition: 3
