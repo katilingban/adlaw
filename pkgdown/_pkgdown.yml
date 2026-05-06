@@ -11,11 +11,6 @@ template:
   theme: haddock
   ganalytics: #
 
-home:
-  links:
-  - text: Read more about Scaling Up Nutrition
-    href: https://scalingupnutrition.org
-
 navbar:
   bg: primary
   type: light
@@ -34,10 +29,11 @@ navbar:
     linkedin:
       icon: "fab fa-linkedin fa-lg"
       href: https://www.linkedin.com/company/katilingban
-    github:
-      icon: "fab fa-github fa-lg"
-      href: https://github.com/katilingban
 
+home:
+  links:
+  - text: Read more about Scaling Up Nutrition
+    href: https://scalingupnutrition.org
 
 reference:
   - title: Description

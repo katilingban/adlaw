@@ -332,7 +332,86 @@ progress_report_2017 <- report7
 usethis::use_data(progress_report_2017, overwrite = TRUE)
 
 
+################################################################################
+#
+# Process 2018 report
+#
+################################################################################
+
+.url <- "https://scalingupnutrition.org/sites/default/files/2022-07/SUN-Progress-Report-2018-ENG.pdf"
+
+download.file(
+  url = .url,
+  destfile = file.path("data-raw/reports/progress", basename(.url))
+)
+
+x <- pdf_text(pdf = file.path("data-raw/reports/progress", basename(.url)))
+x <- str_split(x, pattern = "\n")
 
 
+################################################################################
+#
+# Process 2019 report
+#
+################################################################################
+
+.url <- "https://scalingupnutrition.org/sites/default/files/2022-07/SUN-Progress-Report-2019-ENG_0.pdf"
+
+download.file(
+  url = .url,
+  destfile = file.path("data-raw/reports/progress", basename(.url))
+)
+
+x <- pdf_text(pdf = file.path("data-raw/reports/progress", basename(.url)))
+x <- str_split(x, pattern = "\n")
 
 
+################################################################################
+#
+# Process 2020 report
+#
+################################################################################
+
+.url <- ""
+
+download.file(
+  url = .url,
+  destfile = file.path("data-raw/reports/progress", basename(.url))
+)
+
+x <- pdf_text(pdf = file.path("data-raw/reports/progress", basename(.url)))
+x <- str_split(x, pattern = "\n")
+
+
+################################################################################
+#
+# Process 2021 report
+#
+################################################################################
+
+.url <- "https://scalingupnutrition.org/sites/default/files/2022-07/FINAL%20ENG%20laid%20out%20version%20SUN%20Coordinator%20Annual%20Progress%20Letter%2008-06-22.pdf"
+
+download.file(
+  url = .url,
+  destfile = file.path("data-raw/reports/progress", basename(.url))
+)
+
+x <- pdf_text(pdf = file.path("data-raw/reports/progress", basename(.url)))
+x <- str_split(x, pattern = "\n")
+
+
+################################################################################
+#
+# Process 2022 report
+#
+################################################################################
+
+.url <- "https://scalingupnutrition.org/sites/default/files/2023-10/SUN%20Movement%202022%20Annual%20Report.pdf"
+
+download.file(
+  url = .url,
+  destfile = file.path("data-raw/reports/progress", basename(.url))
+)
+
+x <- pdf_text(pdf = file.path("data-raw/reports/progress", basename(.url)))
+x <- str_split(x, pattern = "\n")

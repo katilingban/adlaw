@@ -18,7 +18,6 @@ interactively engage with the publicly-available SUN Movement datasets.
 Useful links:
 \itemize{
   \item \url{https://github.com/katilingban/adlaw}
-  \item \url{https://katilingban.io/scalingupnutrition/}
   \item \url{https://katilingban.io/adlaw/}
   \item Report bugs at \url{https://github.com/katilingban/adlaw/issues}
 }
